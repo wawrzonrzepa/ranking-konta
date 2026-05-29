@@ -1,60 +1,253 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Najlepsze konta bankowe 2026</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <style>
-    body{
-      font-family: Arial;
-      background:#f4f4f4;
-      padding:40px;
-      max-width:900px;
-      margin:auto;
-    }
+<title>Ranking kont bankowych 2026 – porównanie ofert i bonusów</title>
+<meta name="description" content="Aktualny ranking kont bankowych 2026. Porównaj oferty, sprawdź bonusy i wybierz najlepsze konto online.">
 
-    .card{
-      background:white;
-      padding:20px;
-      margin-bottom:20px;
-      border-radius:12px;
-      box-shadow:0 0 10px rgba(0,0,0,0.1);
-    }
+<style>
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#0b1220;
+  color:#e5e7eb;
+}
 
-    .btn{
-      display:inline-block;
-      background:black;
-      color:white;
-      padding:12px 20px;
-      border-radius:8px;
-      text-decoration:none;
-      margin-top:10px;
-    }
-  </style>
+header{
+  padding:40px 20px;
+  text-align:center;
+  background:linear-gradient(135deg,#111827,#0b1220);
+  border-bottom:1px solid #1f2937;
+}
+
+h1{
+  margin:0;
+  font-size:34px;
+}
+
+.sub{
+  margin-top:10px;
+  color:#9ca3af;
+}
+
+.container{
+  max-width:1000px;
+  margin:auto;
+  padding:20px;
+}
+
+/* RANK CARD */
+.card{
+  background:#111827;
+  border:1px solid #1f2937;
+  border-radius:14px;
+  padding:20px;
+  margin:15px 0;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.top{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+.rank{
+  font-size:14px;
+  padding:5px 10px;
+  border-radius:8px;
+  background:#22c55e;
+  color:black;
+  font-weight:bold;
+}
+
+.title{
+  font-size:22px;
+  font-weight:bold;
+}
+
+.desc{
+  color:#9ca3af;
+  font-size:14px;
+}
+
+/* INFO ROW */
+.info{
+  display:flex;
+  gap:15px;
+  flex-wrap:wrap;
+  margin-top:10px;
+}
+
+.box{
+  background:#0b1220;
+  padding:10px 12px;
+  border-radius:10px;
+  border:1px solid #1f2937;
+  font-size:13px;
+}
+
+/* BUTTON */
+.btn{
+  display:inline-block;
+  margin-top:10px;
+  background:#3b82f6;
+  color:white;
+  text-decoration:none;
+  padding:12px 16px;
+  border-radius:10px;
+  font-weight:bold;
+  text-align:center;
+  transition:0.2s;
+}
+
+.btn:hover{
+  transform:scale(1.03);
+  background:#2563eb;
+}
+
+/* TABLE */
+table{
+  width:100%;
+  margin-top:20px;
+  border-collapse:collapse;
+  font-size:14px;
+}
+
+th,td{
+  padding:12px;
+  border-bottom:1px solid #1f2937;
+  text-align:left;
+}
+
+th{
+  color:#9ca3af;
+}
+
+/* BADGE */
+.badge{
+  background:#f59e0b;
+  color:black;
+  padding:5px 10px;
+  border-radius:8px;
+  font-weight:bold;
+  font-size:12px;
+}
+
+footer{
+  text-align:center;
+  padding:40px 20px;
+  color:#6b7280;
+  font-size:13px;
+}
+</style>
 </head>
 
 <body>
 
-  <h1>Najlepsze konta bankowe 2026</h1>
+<header>
+  <h1>🏦 Ranking kont bankowych 2026</h1>
+  <div class="sub">Porównanie najlepszych ofert online + aktualne bonusy</div>
+</header>
 
-  <div class="card">
-    <h2>Konto z bonusem 500 zł</h2>
-    <p>Darmowe konto dla nowych klientów.</p>
+<div class="container">
 
-    <a class="btn" href="TU_WKLEJ_LINK_AFLIACYJNY">
-      Sprawdź ofertę
-    </a>
+<!-- TOP 1 -->
+<div class="card">
+  <div class="top">
+    <div class="title">Konto z bonusem do 500 zł</div>
+    <div class="rank">#1 TOP WYBÓR</div>
   </div>
 
-  <div class="card">
-    <h2>Konto dla młodych</h2>
-    <p>Brak opłat za prowadzenie.</p>
-
-    <a class="btn" href="TU_WKLEJ_LINK_AFLIACYJNY">
-      Załóż konto
-    </a>
+  <div class="desc">
+    Najlepsza oferta dla nowych klientów. Konto darmowe + premia za aktywność.
   </div>
+
+  <div class="info">
+    <div class="box">💰 Bonus: do 500 zł</div>
+    <div class="box">📱 Konto online</div>
+    <div class="box">💳 0 zł prowadzenia</div>
+  </div>
+
+  <a class="btn" href="TU_WKLEJ_LINK_AFIL">👉 Odbierz bonus</a>
+</div>
+
+<!-- TOP 2 -->
+<div class="card">
+  <div class="top">
+    <div class="title">Konto bez opłat</div>
+    <div class="rank">#2</div>
+  </div>
+
+  <div class="desc">
+    Idealne konto na start – brak opłat za kartę i prowadzenie.
+  </div>
+
+  <div class="info">
+    <div class="box">💰 Bonus: brak</div>
+    <div class="box">💳 0 zł karta</div>
+    <div class="box">📱 BLIK / aplikacja</div>
+  </div>
+
+  <a class="btn" href="TU_WKLEJ_LINK_AFIL">👉 Sprawdź ofertę</a>
+</div>
+
+<!-- TOP 3 -->
+<div class="card">
+  <div class="top">
+    <div class="title">Konto dla młodych</div>
+    <div class="rank">#3</div>
+  </div>
+
+  <div class="desc">
+    Konto dla studentów i młodych – proste i bez opłat.
+  </div>
+
+  <div class="info">
+    <div class="box">🎓 18–26 lat</div>
+    <div class="box">💳 0 zł</div>
+    <div class="box">⚡ szybka aktywacja</div>
+  </div>
+
+  <a class="btn" href="TU_WKLEJ_LINK_AFIL">👉 Załóż konto</a>
+</div>
+
+<!-- TABLE -->
+<h2 style="margin-top:40px;">📊 Porównanie ofert</h2>
+
+<table>
+  <tr>
+    <th>Oferta</th>
+    <th>Bonus</th>
+    <th>Koszty</th>
+  </tr>
+  <tr>
+    <td>Konto #1</td>
+    <td>500 zł</td>
+    <td>0 zł</td>
+  </tr>
+  <tr>
+    <td>Konto #2</td>
+    <td>0 zł</td>
+    <td>0 zł</td>
+  </tr>
+  <tr>
+    <td>Konto #3</td>
+    <td>do 200 zł</td>
+    <td>0 zł</td>
+  </tr>
+</table>
+
+<footer>
+  © 2026 Ranking kont bankowych • Materiał informacyjny
+</footer>
+
+</div>
 
 </body>
 </html>
